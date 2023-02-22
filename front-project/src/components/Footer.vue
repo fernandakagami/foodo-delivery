@@ -1,19 +1,37 @@
 <template>
-    <v-container class="footer-container">        
-        <p>© {{ new Date().getFullYear() }} <strong>Foodo</strong>. All rights reserved.</p>        
-    </v-container>
+    <v-layout class="footer-container">
+        <div class="d-flex flex-column">
+            <v-btn color="red-darken-1" class="mb-16 mx-16" size="large">Contact Us</v-btn>
+
+            <div class="mb-10">
+                <v-btn v-for="link in links" :key="link" variant="text" class="mx-2" rounded="xl">
+                    {{ link }}
+                </v-btn>
+            </div>
+
+            <p class="mb-7 text-center">© {{ new Date().getFullYear() }} <strong>Foodo</strong>. All rights reserved.</p>
+        </div>
+    </v-layout>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
 
 export default defineComponent({
-    name: "Footer"
+    name: "Footer",
+    data: () => ({
+        links: [
+            'Home',
+            'About Us',
+            'Team',
+            'Services'
+        ],
+    }),
 })
 </script>
 
 <style scoped>
-.footer-container {    
+.footer-container {
     display: flex;
     height: 500px;
     justify-content: center;

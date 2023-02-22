@@ -1,9 +1,10 @@
-<template>
-    <v-container>
-        <v-toolbar color="white" class="py-2" height="100px" cols="6" offset="3">
+<template>    
+        <v-toolbar color="white" class="my-2 py-5" height="100px" cols="6" offset="3">
             <v-row justify="space-between" align="center">
-                <v-col md="3" class="d-flex justify-center align-end">
-                    <img src="./icons/logo.png" alt="Foodo Delivery Logo">
+                <v-col md="3" class="d-flex justify-center align-end pa-0">
+                    <div class="logo">
+                        <img src="./icons/logo.png" alt="Foodo Delivery Logo">
+                    </div>                    
                     <h1 class="text-h3"><small class="text-h2">F</small>oodo</h1>
                 </v-col>
                 
@@ -21,7 +22,7 @@
                 </v-col>
             </v-row>
         </v-toolbar>
-    </v-container>
+    
 </template>
 
 <script lang="ts">
@@ -35,8 +36,8 @@ export default defineComponent({
 <style scoped>
 @import '../assets/base.css';
 
-img {
-    width: 70px;
+.logo img {
+    width: 90px;
 }
 
 h1 {
