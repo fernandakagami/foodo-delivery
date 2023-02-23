@@ -21,8 +21,7 @@
                     </div>
                 </v-col>
             </v-row>
-        </v-toolbar>
-    
+        </v-toolbar>    
 </template>
 
 <script lang="ts">

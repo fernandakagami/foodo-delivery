@@ -1,6 +1,6 @@
 <template>
   <Header></Header>
-  <NavBar></NavBar>
+  <NavBar></NavBar>  
   <RouterView />
   <Footer></Footer>
 </template>
