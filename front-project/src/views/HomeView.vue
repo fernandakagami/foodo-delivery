@@ -4,7 +4,7 @@
     <v-container>
         <v-row>
             <v-col cols="3" v-for="restaurant in restaurants" :key="restaurant.name">
-                <v-card class="pa-6">
+                <v-card class="pa-6" to="#">
                     <v-img :src="restaurant.src" class="restaurant-logo"></v-img>
                     <v-card-title class="text-center">{{ restaurant.name }}</v-card-title>
                     <v-card-subtitle class="px-0 pb-1"><strong>&#9733;</strong> {{ restaurant.star }} &#x2022; {{ restaurant.type }}</v-card-subtitle>
@@ -71,6 +71,7 @@ export default defineComponent({
 </script>
 
 <style scoped>
+
 .restaurant-logo {
     max-width: 100%;
 }
