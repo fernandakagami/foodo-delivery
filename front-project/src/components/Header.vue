@@ -3,7 +3,7 @@
             <v-row justify="space-between" align="center">
                 <v-col md="3" class="d-flex justify-center align-end pa-0">
                     <div class="logo">
-                        <img src="./icons/logo.png" alt="Foodo Delivery Logo">
+                        <img src="../assets/logo.png" alt="Foodo Delivery Logo">
                     </div>                    
                     <h1 class="text-h3"><small class="text-h2">F</small>oodo</h1>
                 </v-col>
