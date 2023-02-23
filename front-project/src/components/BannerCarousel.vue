@@ -1,5 +1,5 @@
 <template>
-    <v-carousel height="550" cycle show-arrows="hover">
+    <v-carousel height="600" cycle show-arrows="hover">
         <v-carousel-item v-for="(item, i) in items" :key="i">
             <img :src="item.src" style="width:100%;height:100%;" :alt="`banner${i}`"/>
         </v-carousel-item>

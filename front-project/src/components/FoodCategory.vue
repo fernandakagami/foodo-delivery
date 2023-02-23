@@ -11,43 +11,43 @@ import { defineComponent } from 'vue';
 
 export default defineComponent({
     name: "FoodCategory",
-    data: () => ({       
+    data: () => ({
         foods: [
-                {
-                    src: new URL(`../assets/foods/burger.png`, import.meta.url).href,
-                    name: 'Cheeseburger'
-                },
-                {
-                    src: new URL(`../assets/foods/french-fries.png`, import.meta.url).href,
-                    name: 'Hot Dog'
-                },
-                {
-                    src: new URL(`../assets/foods/hot-dog.png`, import.meta.url).href,
-                    name: 'French Fries'
-                },              
-                {
-                    src: new URL(`../assets/foods/pizza.png`, import.meta.url).href,
-                    name: 'Pizza'
-                },
-                {
-                    src: new URL(`../assets/foods/donut.png`, import.meta.url).href,
-                    name: 'Donut'
-                },
-                {
-                    src: new URL(`../assets/foods/taco.png`, import.meta.url).href,
-                    name: 'Taco'
-                }, 
-            ],
+            {
+                src: new URL(`../assets/foods/burger.png`, import.meta.url).href,
+                name: 'Cheeseburger'
+            },
+            {
+                src: new URL(`../assets/foods/french-fries.png`, import.meta.url).href,
+                name: 'Hot Dog'
+            },
+            {
+                src: new URL(`../assets/foods/hot-dog.png`, import.meta.url).href,
+                name: 'French Fries'
+            },
+            {
+                src: new URL(`../assets/foods/pizza.png`, import.meta.url).href,
+                name: 'Pizza'
+            },
+            {
+                src: new URL(`../assets/foods/donut.png`, import.meta.url).href,
+                name: 'Donut'
+            },
+            {
+                src: new URL(`../assets/foods/taco.png`, import.meta.url).href,
+                name: 'Taco'
+            },
+        ],
     }),
 })
 </script>
 
 <style scoped>
-
 .v-btn--icon {
     width: 120px !important;
     height: 120px !important;
 }
+
 .food-category-image {
     width: 80px;
 }
