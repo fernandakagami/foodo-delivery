@@ -1,4 +1,4 @@
-<h1 align="center"> Foodo Delivery </h1>
+<h1 align="center"> Foodo Delivery - a food delivery APP </h1>
 
 <p align="center">
 Project of Food Delivery
