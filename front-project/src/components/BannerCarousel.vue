@@ -1,6 +1,8 @@
 <template>
-    <v-carousel height="900">
-        <v-carousel-item v-for="(item, i) in items" :key="i" :src="item.src" cover></v-carousel-item>
+    <v-carousel height="550" cycle show-arrows="hover">
+        <v-carousel-item v-for="(item, i) in items" :key="i">
+            <img :src="item.src" style="width:100%;height:100%;" :alt="`banner${i}`"/>
+        </v-carousel-item>
     </v-carousel>
 </template>
 
