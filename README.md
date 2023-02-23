@@ -15,7 +15,7 @@ Project of Food Delivery
 - Vue
 - Vuetify
 
-==Mobile==
+==MOBILE==
 - Quasar
 
 ## :memo: License
